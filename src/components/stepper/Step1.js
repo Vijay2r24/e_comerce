@@ -71,7 +71,7 @@ const Step1 = ({ updateFormData, productData }) => {
       setStepOneData({
         ProductTypeID: productData.productType.productTypeId || '',
         ProductName: productData.productName || '',
-        ProductDiscount: productData.productDiscount || '',
+        ProductDiscount: productData.productDiscount ? productData.productDiscount.replace('%', '') : '',
         ProductDescription: productData.productDescription || '',
         Gender: productData.gender || '',
         CategoryID: productData.category.categoryId || '',
