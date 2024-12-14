@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+ 
+.button-container {
+  @apply flex gap-2 flex-nowrap;
+}
+ 
+/* Button base */
+ 
+.button {
+  @apply inline-flex items-center gap-1 rounded-md py-1 px-2 text-xs font-semibold shadow-md h-7;
+}
+button:hover {
+  @apply text-white;
+}
+ 
+/* Icon inside button */
+ 
+.button .icon {
+  @apply h-4 w-4;
+}
+ 
+/* Edit button */
+ 
+.edit-button {
+  @apply bg-pacific-100 text-pacific-500 w-[75px] flex justify-center items-center;
+}
+ 
+.select-button:hover {
+  @apply bg-blue-200 text-blue-600;
+}
+ 
+/* Edit button */
+ 
+.select-button {
+  @apply bg-pacific-500 text-white;
+}
+ 
+.edit-button:hover {
+  @apply bg-pacific-500;
+}
+ 
+/* Delete button */
+ 
+.delete-button {
+  @apply bg-pink-100 text-red-600 w-[75px] flex justify-center items-center;
+}
+ 
+.delete-button:hover {
+  @apply bg-red-600;
+}
+ 
+/* Delete button */
+ 
+.view-button {
+  @apply bg-purple-100 text-purple-600;
+}
+ 
+.view-button:hover {
+  @apply bg-purple-600;
+}
+ 
+/* Common button base for Save and Cancel */
+ 
+.button-base {
+  @apply inline-flex justify-center items-center rounded-md border border-transparent py-2 px-4 text-sm font-medium transition-all duration-200;
+}
+
+ 
+/* Cancel button */
+ 
+.cancel-btn {
+  @apply bg-red-500 text-white;
+}
+ 
+.cancel-btn:hover {
+  @apply bg-red-600 text-black;
+}
+ 
+.cancel-btn:focus {
+  @apply outline-none ring-2 ring-red-500;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+button:hover {
+  @apply text-white;
+}
+ 
+/* Icon inside button */
+ 

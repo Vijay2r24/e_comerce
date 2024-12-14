@@ -1,0 +1,25 @@
+
+export const BASE_URL = process.env.REACT_APP_API_BASE_URL;
+export const Categories = `${BASE_URL}/categoryWithImages`;
+export const getAllBrands = `${BASE_URL}/getAllBrands`;
+export const deleteBrand=`${BASE_URL}/deleteBrand`;
+export const getBrandById=`${BASE_URL}/getBrandById`;
+export const updateBrandById=`${BASE_URL}/updateBrand`;
+export const createBrand=`${BASE_URL}/createBrand`;
+export const getAllOrders=`${BASE_URL}/getAllOrders`;
+export const createproductWithImages=`${BASE_URL}/productWithImages`;
+export const getAllProductTypesAPI=`${BASE_URL}/getAllProductTypes`;
+export const deleteProductTypeAPI=`${BASE_URL}/deleteProductType`;
+export const getAllSizesAPI=`${BASE_URL}/getAllSizes`;
+export const deleteSizeAPI=`${BASE_URL}/deleteSize`;
+export const getAllColorsAPI=`${BASE_URL}/getAllColours`;
+export const deleteColorAPI=`${BASE_URL}/deleteColour`;
+export const getSizeById=`${BASE_URL}/getSizeById`;
+export const createSize=`${BASE_URL}/createSize`;
+export const updateSize=`${BASE_URL}/updateSize`;
+export const createColour=`${BASE_URL}/createColour`;
+export const getColourById=`${BASE_URL}/getColourById`;
+export const updateColour=`${BASE_URL}/updateColour`;
+export const createProductType=`${BASE_URL}/createProductType`;
+export const getProductTypeById=`${BASE_URL}/getProductTypeById`;
+export const updateProductType=`${BASE_URL}/updateProductType`;
